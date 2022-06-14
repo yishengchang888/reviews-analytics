@@ -23,3 +23,12 @@ for _ in data:
 print('一共有 ', len(new), '筆留言長度小於100')
 print(new[0])
 
+
+good = []
+for _ in data:
+    if 'good' in _:
+        good.append(_)
+
+print('一共有', len(good))
+print(good[0])
+
